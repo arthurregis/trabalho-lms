@@ -1,0 +1,13 @@
+.container-buy-confirm{
+    display: flex;
+    height: 15rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 159, 0);
+    gap: 1rem;
+}
+
+.link-return-home{
+    border: none;
+}

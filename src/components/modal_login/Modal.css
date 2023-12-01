@@ -1,0 +1,109 @@
+.modal-overlay {
+    position: relative;
+    display: inline-block;
+}
+
+.modal-overlay.active .modal-user{
+    display: block;
+}
+
+.modal-container{
+    display: flex;
+    justify-content: center;
+}
+
+.modal-user{
+    position: absolute;
+    background: #F0F2f5;
+    padding: 1rem;
+    z-index: 2;
+    border-radius: 0.6rem;
+    margin: -3.3rem 0 0 21rem;
+}
+
+.user-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.label-modal{
+    margin: 0.5rem 0 0.3rem 0;
+    font-size: 12pt;
+}
+
+.input-modal{
+    width: 14rem;
+    height: 1.5rem;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+}
+
+.input-modal::placeholder{
+    opacity: 0.6;
+}
+
+.btn-form{
+    display: flex;
+    justify-content: right;
+}
+
+.user-form #btn-login{
+    background: black;
+    width: 14rem;
+    height: 1.7rem;
+    color: white;
+    border-radius: 0.6rem;
+    margin: 1rem 0 1rem 0;
+    cursor: pointer;
+}
+
+.modal-forgot-pass{
+    text-align: center;
+    margin-top: -0.5rem;
+}
+
+.modal-register{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1167px) {
+    .modal-user{
+        margin: -3.3rem 0 0 17.5rem;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .modal-user{
+        margin: -3.3rem 0 0 10rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .modal-user{
+        margin: -3.3rem 0 0 5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .modal-user{
+        margin: -0.4rem 0 0 0;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .modal-user{
+        margin: -0.4rem 0 0 -4rem;
+    }
+}
+
+@media screen and (max-width: 388px) {
+    .modal-user{
+        margin: -0.4rem 0 0 -8rem;
+    }
+}

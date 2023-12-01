@@ -1,0 +1,47 @@
+.cart-card {
+    display: flex;
+    width: 40rem;
+    padding: 1rem;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.card-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+.card-infos-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 25pt;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0 0 0;
+    font-size: 14pt;
+    font-weight: 100;
+}
+
+.card-button-remove {
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(184, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: transform 500ms;
+    cursor: pointer;
+}
+
+.card-button-remove:hover{
+    transform: scale(1.1);
+    background-color: rgb(211, 0, 0);
+}

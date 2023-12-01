@@ -1,0 +1,36 @@
+.fav-container-itens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 1.5rem 6.8rem;
+}
+
+.fav-container-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.fav-button {
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.fav-button-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.fav-button-container{
+    display: flex;
+    gap: 1rem;
+
+}
